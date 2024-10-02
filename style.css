@@ -1,4 +1,4 @@
-/*Rafael Freitas 3C*/
+/*Rafael Freitas 3C  25/09*/
 
 :root {
     --branco-principal: #FFFFFF;
@@ -7,6 +7,7 @@
     --cor-de-fundo:#00030c;
     --fonte-principal: 'Inter';
 }
+/*Rafael Freitas 3C  25/09*/
 
 body{
     background-color: var(--cor-de-fundo);
@@ -20,6 +21,7 @@ body{
     margin: 0;
     padding: 0;
 }
+/*Rafael Freitas 3C  25/09*/
 
 .principal{
     background-image: url(img/Background.png);
@@ -28,12 +30,14 @@ body{
     align-items: center;
     text-align: center;
 }
+/*Rafael Freitas 3C  25/09*/
 
 .container{
     height: 100vh;
     display: grid;
     grid-template-columns: 50% 50%;
 }
+/*Rafael Freitas 3C  25/09*/
 
 .container__botao {
     background-color: var(--botao-azul);
@@ -44,38 +48,46 @@ body{
     text-decoration: none;
     margin-bottom: 1em;
 }
+/*Rafael Freitas 3C  25/09*/
 
 .botao_secundario {
     background-color: transparent;
     border: 2px solid var(--branco-principal);
 }
+/*Rafael Freitas 3C  25/09*/
 
 .container__aviso {
     font-size: 12px;
     color: var(--cinza-secundario);
 }
+/*Rafael Freitas 3C  25/09*/
 
 .container__titulo {
     font-size: 28px;
     font-weight: 700;
 }
+/*Rafael Freitas 3C  25/09*/
 
 .container__imagem{
     margin: 1em 0 2em 0;
 }
+/*Rafael Freitas 3C  25/09*/
 
 .container__caixa{
     margin: 0 6em;
 }
+/*Rafael Freitas 3C  25/09*/
 
 .secundario__imagem{
     width: 80%;
 }
+/*Rafael Freitas 3C  25/09*/
 
 .secundario{
     align-items: center;
     margin: 0 10em;
 }
+/*Rafael Freitas 3C  25/09*/
 
 .descricao__titulo{
     font-size: 48px;
@@ -83,19 +95,23 @@ body{
     color: var(--branco-principal);
     margin-bottom: 0.1em;
 }
+/*Rafael Freitas 3C  25/09*/
 
 .descricao__texto{
     color: var(--cinza-secundario); 
 }
+/*Rafael Freitas 3C  25/09*/
 
 .secundario__botao{
     display: inline-block;
     margin-top: 1em;
 }
+/*Rafael Freitas 3C  25/09*/
 
 .container__descricao{
     padding: 2em;
 }
+/*Rafael Freitas 3C  25/09*/
 
 .dispositivos__lista{
     display: flex;
@@ -103,20 +119,24 @@ body{
     list-style-type: none;
     margin: 5em 0;
 }
+/*Rafael Freitas 3C  25/09*/
 
 .dispositivos{
     text-align: center;
 }
+/*Rafael Freitas 3C  25/09*/
 
 .dispositivos__titulo{
     font-size: 48px;
     color: var(--branco-principal);
 }
+/*Rafael Freitas 3C  25/09*/
 
 .lista__item{
     font-size: 32px;
     color: var(--branco-principal);
 }
+/*Rafael Freitas 3C  25/09*/
 
 .rodape__lista {
     display: flex;
@@ -124,23 +144,27 @@ body{
     list-style-type: none;
     margin-top: 1em;
 }
+/*Rafael Freitas 3C  25/09*/
 
 .lista__link a{
     text-decoration: none;
     color: var(--branco-principal);
     margin-left: 1em;
 }
+/*Rafael Freitas 3C  25/09*/
 
 .rodape__texto {
     margin: 1em 0;
     color: var(--cinza-secundario);
     font-size: 14px;
 }
+/*Rafael Freitas 3C  25/09*/
 
 .rodape {
     text-align: center;
     margin: 5em 3em;
 }
+/*Rafael Freitas 3C  25/09*/
 
 .lista__link:hover{
     opacity: 0.7;
